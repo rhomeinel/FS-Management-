@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EmergencyRecordSystem
+</name>
+</assembly>
+<members>
+<member name="T:Emergency_Record_System.ErmsDataSet.equipmentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.incidentTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.logActivityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.maintenanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.personnelTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.equipmentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.incidentTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.logActivityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.maintenanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.personnelTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.equipmentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.incidentTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.logActivityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.maintenanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet.personnelTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.equipmentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.incidentTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.logActivityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.maintenanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.personnelTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Emergency_Record_System.ErmsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Emergency_Record_System.ErmsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Emergency_Record_System.ErmsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.UpdateAll(Emergency_Record_System.ErmsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Emergency_Record_System.ErmsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Emergency_Record_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Emergency_Record_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Emergency_Record_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
